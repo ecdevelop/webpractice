@@ -1,0 +1,60 @@
+
+#login-header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: small;
+    text-align: center;
+}
+
+.login-form {
+
+    background-color:rgb(52, 122, 234);
+    display: flexbox;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    box-shadow: 0 5px 10px 1px black;
+
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+
+    border: solid;
+    border-width: 0.5px;
+
+    padding-left: 30px;
+    padding-right: 30px;
+} 
+
+.login-form input,
+button {
+    display: block;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    text-overflow: clip;
+}
+
+.login-form input:hover,
+button:hover {
+   background: red;
+}
+
+body {
+    /* border: 2px solid black; */
+    /* padding: 25px; */
+    background: url(https://upload.wikimedia.org/wikipedia/commons/e/e7/Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.container-flexbox{
+    display: flex;
+    flex-direction: col;
+    justify-content: center;
+    margin-top: 10px;
+}

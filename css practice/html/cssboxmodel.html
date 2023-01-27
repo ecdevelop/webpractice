@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../css/article.css">
+  
+</head>
+<body>
+
+    <div class="topnav">
+        <div class="nav">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Contact</a>
+            <a href="">Login</a>
+        </div>
+    </div>
+
+    <div >
+
+        <input class="input" type="text" placeholder="Enter an Item">
+        <button class="btn-submit" onclick="createItem()">Submit</button>
+
+        <nav class="list-items">
+            <ul class="ullist">
+                <li>
+                    <a href="">Item1</a>
+                </li>
+                <li>
+                    <a href="">Item2</a>
+                </li>
+                <li>
+                    <a href="">Item3</a>
+                </li>
+                <li>
+                    <a href="">Item4</a>
+                </li>
+                <li>
+                    <span>
+                        <a href="">Sign In</a>
+                        <a href="">Sign Up</a>
+                    </span>
+                </li>
+            </ul>
+           
+        </nav>
+    </div>
+
+    <br>
+
+    <div class="articles">
+        <article>
+            <div class="css-box-model">
+                <h1>-- The CSS Box Model --</h1>
+                <p id="p-htmlelement">
+                    <b> An HTML element can be understood as a series of four overlapping boxes:</b>
+                </p>
+                <ul class="css-box-model-list">
+                    <li>
+                            The <span><b>content box</b></span>  is the innermost box where the text or image content is placed. By default,
+                        its size is frequently set by the size of the content it contains.It is also the only box 
+                        in the box model whose value is typically not zero by default (if it contains content); 
+                        in contrast, the padding, border, and margin of an element default to zero for many HTML 
+                        elements (such as p, h1, and img elements) unless you specify otherwise. When you set 
+                            values for the width and height of an element, you are typically changing the 
+                            width and height of the content box.
+                    </li>
+                    <li>
+                        The <span><b>adding box</b></span>  is the second overlapping box, which consists of a transparent space that 
+                        surrounds the content box. By default, the padding of many HTML elements is set to zero. 
+                        Increasing the size of an element’s padding increases the distance between the content 
+                        box and the border box.
+                    </li>
+                    <li>
+                        The <span><b>border box</b></span>  is the third overlapping box that surrounds the padding box. By default, 
+                        the border value of most HTML elements is set to zero. Increasing the size of an 
+                        element’s border increases the distance between the padding box and the margin box. 
+                        Note that the color, thickness, and style of the border can be adjusted.
+                    </li>
+                    <li>
+                        The <span><b>margin box</b></span>  is the fourth and final overlapping box that consists of transparent 
+                        space outside of the border of an element. By default, the margin value of some 
+                        HTML elements is set to zero, though some elements have specified margin values 
+                        as their default, such as the h1 through h6 heading tags. Margins of two different 
+                            elements are also allowed to overlap sometimes in a behavior called margin collapse. 
+                            When this happens, the margin size defaults to the size of whichever element’s 
+                            margin is the largest.
+                    </li>
+                </ul>
+            </div>
+            <div class="article1">
+                <h1>
+                    Article 1
+                </h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper elementum feugiat.
+                    In pretium mi dolor, sed gravida dolor aliquet non. Maecenas efficitur suscipit nunc, vel viverra
+                    nibh tempus id. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+                    himenaeos. Suspendisse tincidunt sem ut nisl blandit, vitae rutrum nisl dictum. In at viverra est.
+                    Aliquam nec lorem quis nunc scelerisque suscipit quis in nisl. Vivamus lobortis, diam vel maximus
+                    fermentum, neque odio pellentesque arcu, in lacinia orci justo vel urna. Maecenas eros libero,
+                    bibendum id mauris sed, varius pharetra mi. In sit amet urna consequat, tincidunt libero in,
+                    tempor lectus.
+                </p>
+            </div>
+            <div class="article2">
+                <h1>
+                    Article 2
+                </h1>
+                <p>
+                    In sed volutpat dolor. Sed laoreet est tincidunt odio porta, vel tincidunt leo ornare. Nulla
+                    lectus tortor, luctus eu pretium ultricies, elementum quis justo. Cras bibendum tempor eros,
+                    quis laoreet est posuere id. Mauris eu libero commodo, sodales mauris nec, blandit neque. Cras
+                    dignissim vestibulum odio eget vestibulum. Etiam ut ante posuere, tempor ligula vel, maximus
+                    dolor. Sed et sapien ex. Nam eu blandit est. Vestibulum efficitur ante id semper porttitor.
+                </p>
+            </div>
+            <div class="article3">
+                <h1>
+                    Article 3
+                </h1>
+                <p>
+                    Vestibulum dapibus mattis libero ullamcorper vehicula. Donec in elementum ex.
+                    Fusce pulvinar risus venenatis, commodo purus id, bibendum eros. Nulla enim nunc,
+                    tincidunt eget semper et, posuere at nunc. Sed dolor est, auctor eget feugiat vitae,
+                    facilisis gravida mauris. Aliquam hendrerit tempor mauris at molestie. Aliquam in
+                    vehicula nisi. Praesent hendrerit odio vel erat lacinia imperdiet.
+                </p>
+            </div>
+            <div class="article4">
+                <h1>
+                    Article 4
+                </h1>
+                <p class="gray">
+                    Pellentesque nisl justo, pretium eget bibendum at, ultricies ut velit. Etiam ut
+                    felis vel ante bibendum tristique ut non enim. Praesent vitae purus est.
+                    Nam pretium, elit nec gravida condimentum, orci nibh mollis nunc, nec volutpat
+                    tortor purus lacinia lacus. Fusce vitae lectus id odio lacinia tincidunt posuere
+                    at lectus. Donec nunc tellus, posuere non nisi nec, maximus convallis libero.
+                    Morbi lacinia arcu et sapien tempor tincidunt. Curabitur magna lacus, fermentum
+                    sed auctor non, bibendum in enim. Aenean interdum eros vitae erat aliquam
+                    ornare placerat blandit sapien. Interdum et malesuada fames ac ante ipsum
+                    primis in faucibus. Proin rutrum pulvinar massa a commodo. Sed euismod eget
+                    ligula eget luctus.
+                </p>
+            </div>
+            
+
+        </article>
+    </div>
+
+    <div class="random-form">
+        <div class="someForm">
+            <input class="username" type="text" placeholder="Enter Username">
+            <input class="password" type="text" placeholder="Enter Password">
+            <button>Submit</button>
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+    function createItem(){
+    
+    var li = document.createElement("li");
+    var txt = document.querySelector(".input").value;
+    
+    if (txt == ""){
+        alert("please enter an item")
+    } else {
+        var input = document.createTextNode(txt);
+        
+    li.appendChild(input);
+    var ul = document.querySelector(".ullist");
+    ul.appendChild(li);
+    
+    
+    var newTxt = document.querySelector(".input").value = "";
+    }
+    }
+    </script>
+<div class="footer">
+    <footer>
+
+    </footer>
+</div>
+</html>

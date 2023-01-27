@@ -1,0 +1,49 @@
+ <section class="background-slider" onclick = "changeBgOnClick()" style="margin-top: 30px;">
+    <!--  For Carousel automatic  -->
+    </section>
+
+     <script>
+		var siteroot = "<%=request.getContextPath()%>";
+		var iconFile = siteroot + '/resources/assets/2.jpg';  
+		var iconFile2 = siteroot + '/resources/assets/3.jpg';   
+		var iconFile3 = siteroot + '/resources/assets/4.jpg';  
+		var iconFile4 = siteroot + '/resources/assets/5.jpg';  
+		var iconFile5 = siteroot + '/resources/assets/6.jpg';  
+		var iconFile6 = siteroot + '/resources/assets/7.jpg';   
+        
+        function changeBg(){
+
+            const images = [
+            'url(' + iconFile + ')', 
+            'url(' + iconFile2 + ')', 
+            'url(' + iconFile3 + ')', 
+            'url(' + iconFile4 + ')', 
+            'url(' + iconFile5 + ')', 
+            'url(' + iconFile6 + ')', 
+            ];
+
+            const section = document.querySelector('.background-slider');
+            const bg = images[Math.floor(Math.random() * images.length)];
+            section.style.backgroundImage = bg;
+
+        }
+        
+        
+        function changeBgOnClick(){
+        	 const images = [
+                 'url(' + iconFile + ')', 
+                 'url(' + iconFile2 + ')', 
+                 'url(' + iconFile3 + ')', 
+                 'url(' + iconFile4 + ')', 
+                 'url(' + iconFile5 + ')', 
+                 'url(' + iconFile6 + ')', 
+                 ];
+        	 
+        	 const section = document.querySelector('.background-slider');
+             const bg = images[Math.floor(Math.random() * images.length)];
+             section.style.backgroundImage = bg;
+        }
+
+        setInterval(changeBg, 1500);
+
+    </script>
