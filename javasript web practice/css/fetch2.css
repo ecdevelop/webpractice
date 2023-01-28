@@ -1,0 +1,33 @@
+
+body{
+    background-color: rgba(224, 159, 38, 0.747);
+}
+
+h1{
+    text-align: center;
+}
+
+#employees {
+    display: flex;
+    justify-content: center;
+}
+
+#employees tr, td{
+
+    background-color: rgb(106, 176, 238);
+    border: solid 1px;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.table-headers{
+    font-size: large;
+    background-color: aqua;
+
+    border: solid 1px;
+    border-color: burlywood;
+    border-radius: 2px;
+    border-top-color: black;
+}
+
