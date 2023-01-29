@@ -78,7 +78,7 @@ function getDepartmentById(){
     // Function to define innerHTML for HTML table
     function show(data) {
 
-        
+        console.log(data);
        
         }
 
