@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background-color: papayawhip;
+            /* margin: 0; */
+        }
+
+        .div1{
+            background-color: aliceblue;
+            text-align: center;
+            height: 200px;
+            border: 1px solid black;
+        }
+
+        .div2{
+            text-align: center;
+            margin: 10px;
+            font-size: 20px;
+        }
+
+        .div2 span{
+            display: inline;
+            background-color: aqua;
+            height: 10rem;
+            border: 1px solid black
+            
+        }
+
+        .div3 {
+            display: flex;
+            flex-direction: row;
+            border: 1px solid black;
+            justify-content: space-around;
+            color: white;
+            font-size: large;
+        }
+
+        .div3 div{
+            border: 1px solid black;
+        }
+
+        .div3 .flexbox-div1{
+            background-color: orange;
+        }
+
+        .div3 .flexbox-div2{
+            background-color: blue;
+        }
+
+        .div3 .flexbox-div3{
+            background-color: green;
+        }
+
+        .div3 .flexbox-div4{
+            background-color: brown;
+        }
+
+        .div3 .flexbox-div5{
+            background-color: red;
+        }
+
+        .container{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            border: 1px solid black;
+            background-color: yellowgreen;
+        }
+
+        .container div{
+            text-align: center;
+        }
+
+        .container .col1{
+            display: flex;
+            flex-direction: column;
+            border: 1px solid black;
+            background-color: bisque;
+        }
+
+        .container .col2{
+            display: flex;
+            flex-direction: column;
+            border: 1px solid black;
+            background-color: orange;
+        }
+
+        .container .col3{
+            display: flex;
+            flex-direction: column;
+            border: 1px solid black;
+            background-color: orangered;
+        }
+
+        .container .col4{
+            display: flex;
+            flex-direction: column;
+            border: 1px solid black;
+            background-color: blue;
+        }
+
+        .container .col5{
+            display: flex;
+            flex-direction: column;
+            border: 1px solid black;
+            background-color: violet;
+        }
+
+        .container .img-flex-container{
+            display: flex;
+            justify-content: center;
+        }
+
+        .container img{
+           height: 100px;
+           width: 100px;
+        }
+
+        .mid{
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="div1">
+        <p>This is a block</p>
+        <h1>The End</h1>
+        <h2>CSS Basics</h2>
+    </div>
+
+    <div class="div2">
+        <span>this is inline</span> <span>this is inline</span> <span>this is inline</span>
+    </div>
+
+    <div class="div3">
+        <div class="flexbox-div1">
+            <p>flexbox 1</p>
+        </div>
+        <div class="flexbox-div2">
+            <p>flexbox 2</p>
+        </div>
+        <div class="flexbox-div3">
+            <p>flexbox 3</p>
+        </div>
+        <div class="flexbox-div4">
+            <p>flexbox 4</p>
+        </div>
+        <div class="flexbox-div5">
+            <p>flexbox 5</p>
+        </div>
+    </div>
+
+    <div class="mid">
+        <h1>this is flexbox</h1>
+    </div>
+
+    <div class="container">
+        <div class="col1">
+            <div class="img-flex-container">
+                <img src="../img/smile-5865208_1280.webp" alt="">
+            </div>
+                <p>this is some text</p>
+                <div>hello There</div>
+                <h1>Col 1</h1>
+        </div> 
+
+        <div class="col2">
+            <div class="img-flex-container">
+                <img src="../img/smile-5865208_1280.webp" alt="">
+            </div>
+            <p>this is some text</p>
+            <div>hello There</div>
+            <h1>Col 2</h1>
+        </div> 
+
+        <div class="col3">
+            <div class="img-flex-container">
+                <img src="../img/smile-5865208_1280.webp" alt="">
+            </div>
+            <p>this is some text</p>
+            <div>hello There</div>
+            <h1>Col 3</h1>
+        </div> 
+
+        <div class="col4">
+            <div class="img-flex-container">
+                <img src="../img/smile-5865208_1280.webp" alt="">
+            </div>
+            <p>this is some text</p>
+            <div>hello There</div>
+            <h1>Col 4</h1>
+        </div>
+
+        <div class="col5">
+            <div class="img-flex-container">
+                <img src="../img/smile-5865208_1280.webp" alt="">
+            </div>
+            <p>this is some text</p>
+            <div>hello There</div>
+            <h1>Col 5</h1>
+        </div>
+    </div>
+    
+</body>
+</html>

@@ -9,13 +9,12 @@ body{
     display: flex;
     justify-content: center;
     margin: 0;
-    border: 1px solid;
+    /* border: 1px solid; */
     /* background-image: url(../img/home-office-01.webp); */
 }
 
 .login {
     background-color: antiquewhite;
-    font-size: small;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
     justify-content: center;
@@ -26,7 +25,7 @@ body{
     padding: 10px;
     padding-bottom: 8rem;
     margin: 10px;
-    background: rgba(247, 244, 244, 0.5) /* Gray background with 30% opacity */
+    background: rgba(247, 244, 244, 0.7) /* Gray background with 30% opacity */
     
 }
 
@@ -38,7 +37,6 @@ body{
 
 .login span {
     padding-bottom: 10px;
-    font-size: large;
     font-size: medium;
     text-align: center;
 }

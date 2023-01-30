@@ -1,0 +1,55 @@
+body{
+    background-image: url(../img/home-office-01.webp);
+    margin: 0;
+}
+
+.login-flex-container{
+    display: flex;
+    justify-content: center;
+}
+
+.login-form{
+    border-radius: 30px 30px 0 0;
+    margin: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+}
+
+.login-form *{
+    padding: 10px;
+}
+
+.login-form img{
+    border-radius: 100%;
+    border: 1px solid black
+}
+
+.login-form .image-container{
+    padding: 2rem;
+}
+
+.login-form span{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+
+.login-form input{
+    width: 500px;
+    height: 2rem;
+}
+
+.login-form button{
+    border-radius: 10px;
+    background-color: green;
+    border: 0px;
+    margin-top: 20px;
+    color: white;
+}
+
+.login-form button:hover{
+    opacity: 0.7;
+}
+
