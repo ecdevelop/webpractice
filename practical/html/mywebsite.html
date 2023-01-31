@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyWebSite</title>
+
+    <style>
+        body{
+            margin: 0;
+        }
+
+        .nav-container{
+            background-color: yellow;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        .nav-container a{
+            margin-left: 5px;
+            margin-right: 5px;
+            text-decoration: none;
+            font-size: large;
+            font-weight: 100;
+            font-style: normal;
+            font-family:'Times New Roman', Times, serif;
+            color: black;
+            display: block;
+            padding: 1rem;
+        }
+
+        .nav-container a:hover{
+            background-color: orange;
+            color: yellow;
+        }
+
+        .middle-container{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .middle-container .left-content{
+            display: flex;
+            flex-direction: column;
+            flex: 20%;
+            background-color: aqua;
+        }
+
+        .middle-container .middle-content{
+            display: flex;
+            flex-direction: column;
+            flex: 60%;
+            background-color: blue;
+            padding: 1rem;
+        }
+
+        .left-content img{
+           border-radius: 100%;
+        }
+
+        .middle-container .right-content{
+            display: flex;
+            flex-direction: column;
+            flex: 20%;
+            background-color: blueviolet;
+        }
+
+    
+    </style>
+
+</head>
+<body>
+    <h1></h1>
+    <nav class="nav-container">
+        <a href="">Login</a>
+        <a href="">About</a>
+        <a href="">Home</a>
+        <a href="">Contact</a>
+        <a href="">News</a>
+    </nav>
+
+    <div class="middle-container">
+        <div class="left-content">left
+            <img src="../img/personimage.png" alt="">
+        </div>
+
+
+        <div class="middle-content">
+            <p><span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi magnam ad omnis inventore nulla consectetur deserunt vero ut odio? Eum debitis cupiditate eveniet rerum officia quo sint fugit animi a?</span><span>Hic rerum distinctio aut iste, temporibus vel earum possimus! Nihil tempore ipsa officiis est quasi necessitatibus ad? Officiis totam laboriosam, aperiam quasi repellendus quae et necessitatibus aspernatur, officia, fugiat molestiae!</span><span>Consectetur minima deserunt inventore in delectus error quibusdam accusantium possimus sequi? Voluptas odit libero quas, possimus, consequatur id facere ex animi unde, dolor repellendus quasi quidem a numquam cum iste.</span><span>Impedit, esse id expedita autem quaerat sint. Voluptatum praesentium, officiis ab nesciunt fugit sed amet odit dolorum aperiam quasi voluptatibus nostrum alias odio at omnis nam nobis culpa, maxime consectetur?</span><span>Autem debitis quisquam ducimus sunt ipsa quibusdam numquam perspiciatis aliquid. Nulla saepe quis repellat recusandae, iure cumque! Inventore, maxime ullam quisquam nam eum quae sunt, sapiente temporibus, incidunt sequi enim!</span></p>
+        </div>
+        
+        
+        <div class="right-content">right</div>
+    </div>
+</body>
+<footer class="footer-container">
+        <div></div>
+    
+</footer>
+</html>
