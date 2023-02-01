@@ -22,7 +22,7 @@ body{
     transition: all 0.5s ease;
 }
 
-.wrapper .sidebar .profile{
+.wrapper .sidebar .profile{ 
     margin-bottom: 30px;
     text-align: center;
 }
@@ -44,7 +44,7 @@ body{
     color: rgb(206, 240, 253);
     font-size: 14px;
 }
-
+/* -------------------------------------------------------------- */
 .wrapper .sidebar ul li a{
     display: block;
     padding: 13px 30px;

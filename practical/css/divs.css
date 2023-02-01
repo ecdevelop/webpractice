@@ -1,0 +1,47 @@
+body {
+    margin: 0 0;
+    padding: 0 0;
+    background-color: blueviolet;
+}
+
+.head {
+    background-color: rgb(150, 95, 160);
+    height: 50px;
+    width: 100%
+}
+
+.nav {
+    background-color: rgb(119, 226, 43);
+    height: 10px;
+    border: 1px solid black;
+}
+
+.sidebar {
+    background-color: rgb(58, 45, 132);
+    position: fixed;
+    width: 12%;
+    height: 100%;
+    transition: all 0.5s ease;
+    overflow: auto;
+}
+
+.sidebar ul li {
+    list-style-type: none;
+    ;
+}
+
+.sidebar ul li a {
+    display: block;
+    padding: 13px 30px;
+    border-bottom: 1px solid violet;
+    text-decoration: none;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    font-size: 20px;
+}
+
+.sidebar ul li a:hover {
+    background-color: blueviolet;
+    color: chartreuse;
+}
