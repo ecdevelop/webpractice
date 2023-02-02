@@ -1,0 +1,18 @@
+* {
+    margin: 0 0;
+    padding: 0 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar{
+    position: fixed;
+    background-color: blueviolet;
+    width: 25%;
+    height: 100%;
+}
+
+
