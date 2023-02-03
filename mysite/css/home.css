@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+}
+
+h1{
+    width: 100%;
+    margin: 50px auto 0 auto;
+    font-size: 90px;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+    line-height: 2;
+}
+
+p{
+    margin: 0 auto 0 auto;
+}
+
+
+.top-container{
+    position: relative;
+    background-color: coral; 
+    padding-top: 100px;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 100px;
+    top: 20px;
+    padding-tp;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left:200px;
+   
+}
+
+
+
