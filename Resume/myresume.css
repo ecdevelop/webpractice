@@ -19,16 +19,7 @@ body{
     height: 1000px;
     width: 100%;
    position: relative;
-   padding: 30px;
    /* background: rgba(247, 244, 244, 0.7) */
-}
-
-.middle-container .skills-wrapper{
-    height: 100%;
-    width: 95%;
-    margin: auto;
-
-   background: rgba(247, 244, 244, 0.7) ;
 }
 
 .top-container nav{
@@ -47,14 +38,13 @@ body{
     left: 240px;
 }
 
-
 .top-container nav ul a {
    margin-right: 50px;
    text-decoration: none;
    color: white;
    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, serif;
-   font-size: 20px;
-   text-shadow: 2px 2px 8px black;
+   font-size: 15px;
+   text-shadow: 2px 2px 8px rgb(86, 76, 76);
 }
 
 .top-container p{
@@ -71,3 +61,18 @@ body{
     /* box-shadow: 0 5px 10px 1px black; */
     text-shadow: 2px 2px 8px black;
  }
+
+ .middle-container .skills-wrapper{
+    height: 100%;
+    width: 95%;
+    margin: auto;
+   background: rgba(64, 0, 174, 0.9) ;
+}
+
+.middle-container p, li,h2{
+    color: white;
+}
+
+.middle-container table, th, tr, td{
+    border: 1px solid white;
+}
