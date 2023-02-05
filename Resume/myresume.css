@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    top: 0;
+}
+
+body{
+    background-image: url(images/238870.jpg);
+    background-attachment: fixed;
+    background-repeat: repeat;
+}
+
+.top-container{
+    height: 1000px;
+    width: 100%;
+    position: relative;
+}
+
+.middle-container{
+    height: 1000px;
+    width: 100%;
+   position: relative;
+   padding: 30px;
+   /* background: rgba(247, 244, 244, 0.7) */
+}
+
+.middle-container .skills-wrapper{
+    height: 100%;
+    width: 95%;
+    margin: auto;
+
+   background: rgba(247, 244, 244, 0.7) ;
+}
+
+.top-container nav{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding: 20px;
+    margin-right: 40px;
+}
+
+.top-container .Intro{
+    display: inline-block;
+    position: absolute;
+    top: 400px;
+    left: 240px;
+}
+
+
+.top-container nav ul a {
+   margin-right: 50px;
+   text-decoration: none;
+   color: white;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, serif;
+   font-size: 20px;
+   text-shadow: 2px 2px 8px black;
+}
+
+.top-container p{
+   color: white;
+   font-size: 20;
+   text-shadow: 2px 2px 8px black;
+   
+}
+
+
+.top-container h1{
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, serif;
+    /* box-shadow: 0 5px 10px 1px black; */
+    text-shadow: 2px 2px 8px black;
+ }
