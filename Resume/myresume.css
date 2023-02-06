@@ -66,13 +66,27 @@ body{
     height: 100%;
     width: 95%;
     margin: auto;
-   background: rgba(64, 0, 174, 0.9) ;
-}
-
-.middle-container p, li,h2{
-    color: white;
+   /* background: rgba(64, 0, 174, 0.9) ; */
 }
 
 .middle-container table, th, tr, td{
     border: 1px solid white;
 }
+
+.middle-container p{
+    color: white;
+    text-align: center;
+}
+
+.middle-container h2 {
+   color: white;
+   text-align: center;
+
+}
+
+.middle-container li {
+    color: white;
+    text-align: center;
+    list-style-type: none;
+ 
+ }
