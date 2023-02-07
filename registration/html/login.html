@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+
+    <div class="login-container">
+        <div class="flex-container">
+            <div class="login-background">
+            <img src="../images/02cb6180-f20f-427a-9a72-949dcb25a159.jpg" alt="">
+            </div>
+
+            <div class="login-form">
+
+
+                <img src="../images/Person-595b40b65ba036ed117d315a.svg" alt="">
+
+
+                <p>Enter Username</p>
+                <span></span><input type="text" placeholder="Enter Username"> 
+                <p>Enter Password</p>
+                <span></span><input type="text" placeholder="Enter Username">
+                <button>Submit</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+
+const api_url = "http://localhost:8082/departments";
+
+// fetch(api_url)
+//   .then((response) => response.json())
+//   .then((data) => console.log(data));
+
+const form = {
+  email: document.querySelector("#signin-email"),
+  password: document.querySelector("#signin-password"),
+  submit: document.querySelector("#signin-btn-submit"),
+  messages: document.getElementById("form-messages"),
+};
+let button = form.submit.addEventListener("click", (e) => {
+  e.preventDefault();
+  const login = "https://ffcc-app.herokuapp.com/user/login";
+
+  fetch(login, {
+    method: "POST",
+    headers: {
+      Accept: "application/json, text/plain, */*",
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      email: form.email.value,
+      password: form.password.value,
+    }),
+  })
+    .then((response) => response.json())
+    .then((data) => {
+      console.log(data);
+      // code here //
+      if (data.error) {
+        alert("Error Password or Username"); /*displays error message*/
+      } else {
+        window.open(
+          "target.html"
+        ); /*opens the target page while Id & password matches*/
+      }
+    })
+    .catch((err) => {
+      console.log(err);
+    });
+});
+
+// function signIn(email, password) {
+//     var userObj = {email: email, password: password};
+//     var jsonBody = JSON.stringify(userObj);
+    
+//     fetch(server + "/auth/authorization", {
+//         // mode: "no-cors",
+//         method: 'POST',
+//         headers: {
+//             "Accept-language": "RU",
+//             "Content-Type": "application/json"
+//         },
+//         body: jsonBody
+//     })
+//     .then(response => response.json())
+//     .then(data => {
+//         if (data.error) {
+//             alert("Error Password or Username");
+//         } else {
+//             return data;
+//         }
+//     })
+//     .catch((err) => {
+//         console.log(err);
+//     });
+// }
+
+</script>
+</html>
