@@ -95,7 +95,7 @@ body{
 
  .container{
     float: left;
-    margin: 20px auto;
+    /* margin: 20px auto; */
     width: 240px;
     height: 240px;
     background: rgba(247, 244, 244, 0.1);
@@ -121,16 +121,14 @@ body{
     border: 2px solid rgba(98, 97, 97, 0.2);
   }
 
-  .frontend {
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
+  .frontend-container {
+        
     height: 400px;
     width: 80%;
    margin: 0 auto;
   }
 
-  .frontend h1{
+  .frontend-container h1{
     display: inline-block;
     margin-top: 10px;
    color: white;
